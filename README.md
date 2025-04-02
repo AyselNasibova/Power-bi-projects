@@ -1,8 +1,7 @@
- Irsad telecom Sales Dashboard - Power BI Project
+ 
+Irsad Telecom Sales Dashboard - Power BI Project
 Project Description:
 This project uses a database to model and analyze data related to telecommunications product sales. In the Power BI project, various data visualizations are used to present insights on orders, products, customers, employees, and sales.
-
-The project includes the creation of a database with necessary tables, as well as data processing to generate reports and visualizations in Power BI.
 
 Project Goals:
 Database modeling for testing business data.
@@ -13,7 +12,6 @@ Sales, returns, order, customer, and product analysis.
 
 Database Structure:
 Tables:
-
 Stores: Data on stores (StoreID, StoreName, Address, Phone, etc.).
 
 Products_PB: Data on products (ProductID, ProductName, Category, Brand, Price, StockQuantity, etc.).
@@ -25,13 +23,11 @@ Employees_PB: Data on employees (EmployeeID, FirstName, LastName, Position, Stor
 Orders_PB: Data on orders (OrderID, CustomerID, StoreID, EmployeeID, OrderDate, TotalAmount, PaymentMethod, OrderType).
 
 Procedures:
-
 PopulateOrdersAndItems: Populates the Orders and Items tables with random data.
 
 PopulateCustomers: Populates the Customers table with random customer data (names, addresses, phones, etc.).
 
 Triggers and Sequences:
-
 Customers_Seq: A sequence for automatically generating unique CustomerID values.
 
 Customers_Trigger: A trigger for generating CustomerID values when inserting into the Customers_PB table.
@@ -40,7 +36,6 @@ Note: Data is randomly generated using DBMS_RANDOM functions to simulate real-wo
 
 Power BI Visualizations:
 Dashboards:
-
 Total Revenue: A visualization of total revenue across all orders, with filters for order type, date, and store.
 
 Sales by Category: An analysis of sales by product category with sorting options for brands and prices.
@@ -52,7 +47,6 @@ Returns: Data on product returns, including the number of returns per product.
 Employee Performance: An analysis of employee performance by the number of orders processed and total profit.
 
 Types of Visuals:
-
 Bar Chart: For showing sales by category.
 
 Line Chart: To analyze sales and order trends over time.
@@ -64,7 +58,6 @@ Matrix: For displaying detailed order and product data.
 Table: For displaying detailed customer and order data.
 
 Measures and Expressions (DAX):
-
 Total Revenue: Calculates the total revenue based on the quantity of products sold and their prices.
 
 Average Price: Calculates the average price across products.
@@ -85,3 +78,12 @@ Use the DAX measures to perform calculations and generate insights.
 Use the visualizations to create interactive dashboards and reports.
 
 Filter and analyze sales data based on various factors like order type, product category, and employee performance.
+
+
+
+
+
+
+
+
+
