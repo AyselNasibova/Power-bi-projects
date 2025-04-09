@@ -1,5 +1,5 @@
  
-Irsad Telecom Sales Dashboard - Power BI Project
+IRSAD TELECOM SALES DAHBOARD - Power BI Project
 Project Description:
 This project uses a database to model and analyze data related to telecommunications product sales. In the Power BI project, various data visualizations are used to present insights on orders, products, customers, employees, and sales.
 
